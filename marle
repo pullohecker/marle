@@ -2,7 +2,7 @@ VAR=$RANDOM
 echo $VAR
 if [[ $VAR -gt 16383 ]]
 then
-	play /home/jirppa/himberg.mp3
+	play ~/himberg.mp3
 else
-	play /home/jirppa/soitto.mp3
+	play ~/soitto.mp3
 fi
